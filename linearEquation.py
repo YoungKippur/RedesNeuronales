@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     # epochs --> Cantidad de pruebas
     print('Entrenando... ;-)')
-    historial = modelo.fit(input, output, epochs=2000, verbose=False)
+    historial = modelo.fit(input, output, epochs=500, verbose=True)
     print('Entrenado. (●*◡*●)')
 
     # Prerdiccion!!

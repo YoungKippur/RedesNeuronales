@@ -27,7 +27,7 @@ if __name__ == "__main__":
     print('Entrenado. (●*◡*●)')
 
     # Prerdiccion!!
-    prediction = modelo.predict([14])
+    prediction = modelo.predict([23])
     print('Resultado de la prediccion: ' + str(prediction))
 
 
